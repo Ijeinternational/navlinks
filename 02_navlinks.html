@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background-color: #080000;
+        }
+        h1{
+            padding: 10px;
+            color:#fff;
+        }
+        .nav1{
+            background-color: #fff;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+        }
+        .nav1 a{
+            color: #0e0101;
+            text-decoration: none;
+            position: relative;
+        }
+
+        .nav1 a:hover a::hover{
+            content: abc;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            translate: scaleX(0);
+            transform: scaleX(1);
+            
+        }
+
+        .nav1 button{
+            padding: 5px 10px;
+            background-color: #514fcf;
+            border-radius: 5px;
+            border: none;
+        }
+
+        .nav2{
+            padding: 15px;
+            background-color: rgb(66, 156, 66);
+            width: 150px;
+            
+        }
+
+        .nav2 ul{
+            list-style: none;
+            padding: 0;
+            
+        }
+        .nav2 li{
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        .nav2 a{
+            color: #fff;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        h2{
+            color: #fff;
+            padding: 5px 10px;
+        }
+
+        .nav2 button{
+            background-color: rgb(4, 68, 4);
+            padding: 5px 10px;
+            border-radius: 5px;
+            border: none;
+    
+        }
+
+        .nav2 a:hover{
+            background-color: #52a56b;
+        }
+
+        .nav2 button:hover{
+            background-color:  rgb(21, 247, 51);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Variation 1: Horizontal line with underline effect</h1>
+    <div class="nav1">
+    <a href="www.home.com">Home</a>
+    <a href="www.about.com">About</a>
+    <a href="www.products.com">product</a>
+    <button>login</button>
+    </div>
+    <h2>Variation 2: Vertical with hover effect</h2>
+    <div class="nav2">
+        <ul>
+            <li><a href="www.home.com">Home</a></li>
+            <li><a href="www.about.com">About</a></li>
+            <li><a href="www.products.com">product</a></li>
+        </ul>
+    <button>login</button>
+    </div>
+    
